@@ -2,15 +2,14 @@ package com.company;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Main {
+public class Lab1 {
     public static void main(String[] args) {
-        System.out.println("Введите последовательность скобок:");
         Scanner in = new Scanner(System.in);
         String brackets = in.next();
         Stack stack = new Stack();
         boolean isOk = true;
-        for (int i = 0; i < brackets.length(); i++) {  // начинаем последовательно считывать
-            char ch = brackets.charAt(i);              // считывание символа
+        for (int i = 0; i < brackets.length(); i++) {
+            char ch = brackets.charAt(i);
             switch (ch) {
                 case '{':
                 case '[':

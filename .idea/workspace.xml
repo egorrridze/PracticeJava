@@ -22,6 +22,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gson-2.8.6.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lab2">
+  <component name="RunManager" selected="Application.Lab3">
     <configuration name="Lab2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lab2" />
       <module name="PracticeJava" />
@@ -49,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Laba1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Laba1" />
+    <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lab3" />
       <module name="PracticeJava" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +69,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Lab1" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -72,16 +78,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.asd" />
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task461" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.task461" />
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.task461" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Lab2" />
-      <item itemvalue="Application.Laba1" />
+      <item itemvalue="Application.asd" />
+      <item itemvalue="Application.Lab3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab2" />
-        <item itemvalue="Application.Laba1" />
+        <item itemvalue="Application.Lab3" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.asd" />
+        <item itemvalue="Application.Lab2" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +130,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582560380490</updated>
-      <workItem from="1582560384616" duration="13810000" />
+      <workItem from="1582560384616" duration="14597000" />
+      <workItem from="1582790713825" duration="2248000" />
+      <workItem from="1583215473156" duration="1796000" />
+      <workItem from="1583415350475" duration="3440000" />
+      <workItem from="1584009869755" duration="667000" />
+      <workItem from="1585915947304" duration="1874000" />
+      <workItem from="1586458242057" duration="7000" />
+      <workItem from="1586890522248" duration="10427000" />
+      <workItem from="1587044457397" duration="4217000" />
+      <workItem from="1587219141599" duration="9000" />
+      <workItem from="1587451827280" duration="2889000" />
+      <workItem from="1588905020225" duration="5279000" />
+      <workItem from="1589019881742" duration="811000" />
+      <workItem from="1589531796088" duration="1329000" />
+      <workItem from="1589682855682" duration="217000" />
+      <workItem from="1589940428209" duration="1304000" />
     </task>
     <servers />
   </component>
@@ -107,7 +157,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
