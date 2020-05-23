@@ -9,19 +9,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class Lab3 {
-        /*Scanner in = new Scanner(System.in);
-        String html = "https://rating.chgk.info/players.php?page=1";
-        Document table = Jsoup.connect(html).get();
-        Elements rows = table.select("tr");
-        for (int i = 2; i < rows.size(); i++) {
-            Element row = rows.get((i)); //по номеру индекса получает строку
-            Elements cols = row.select("td");// разбиваем полученную строку по тегу  на столбы
-            System.out.print(cols.get(1).text() + " ");// первый столбец
-            System.out.print(cols.get(7).text() + " ");
-            System.out.print(cols.get(9).text() + " ");
-            System.out.print(cols.get(3).text());
-            System.out.println();
-        }*/
         static String url = "https://student.mirea.ru";
         public static void main (String[]args){
             Document doc = null;
@@ -55,7 +42,7 @@ public class Lab3 {
                 InputStream in = url2.openStream();
                 OutputStream out = new FileOutputStream(name);
 
-                byte[] bytes = new byte[2048];
+                byte[] bytes = new byte[1024];
                 int len;
 
                 while ((len = in.read(bytes)) != -1) {
