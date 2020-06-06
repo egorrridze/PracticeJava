@@ -29,7 +29,7 @@ public class Lab4 {
             //commands
             switch (message){
                 case "/start" :
-                    SendResponse response0 = bot.execute(new SendMessage(chatId,"Введите город"));
+                    SendResponse response0 = bot.execute(new SendMessage(chatId,"Напишите название города:"));
                     break;
 
                 default: {
@@ -64,9 +64,9 @@ public class Lab4 {
                         SendResponse response1 = bot.execute(new SendMessage(chatId,
                                 "Погода в городе " + city +"\n" +
                                         "Температура: "+ Math.round(temperature) + "°C\n" +
-                                        "Состояние: " + overcast + "\n" +
                                         "Скорость ветра: " + windspeed + " м/с" + "\n" +
-                                        "Влажность: " + humidity + "%"));
+                                        "Влажность: " + humidity + "%\n" +
+                                        "Состояние: " + overcast + "\n"));
 
                     } catch (IOException e) {
                         e.printStackTrace();

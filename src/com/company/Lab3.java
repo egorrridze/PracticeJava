@@ -5,7 +5,6 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.*;
-import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class Lab3 {
